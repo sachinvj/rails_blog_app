@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+resources :articles
+
 # App routes 02
 root 'pages#home'
 #get 'pages/home',to:'pages#home'
